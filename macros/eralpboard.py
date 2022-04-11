@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2021 Henry Gabryjelski for Adafruit Industries
-#
-# SPDX-License-Identifier: MIT
-
-
 # NOTE: There appears to be a line length limit. Exceeding that limit appears
 #       to result in silent failure.  Therefore, the key sequences are split
 #       across multiple lines.
@@ -10,7 +5,6 @@
 from adafruit_hid.keycode import Keycode # REQUIRED if using Keycode.* values
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 
-# See https://minecraft.fandom.com/wiki/Effect
 
 DELAY_AFTER_SLASH = 0.80 # required so minecraft has time to bring up command screen
 DELAY_BEFORE_RETURN = 0.10 # give minecraft time to show all the keys pressed...
